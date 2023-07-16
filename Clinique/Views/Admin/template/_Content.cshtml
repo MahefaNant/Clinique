@@ -1,0 +1,14 @@
+@using AspNetCoreTemplate.C_
+@using Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    Layout = RoutePath.HtmlTemplate();
+}
+
+    <partial name="@RoutePath.NavAdmin()"/>
+    <partial name="@RoutePath.AsideAdmin()"/>
+
+<main id="main">
+    @RenderBody()
+</main>
+<script src="~/js/site.js" asp-append-version="true"></script>
+@await RenderSectionAsync("Scripts", required: false)

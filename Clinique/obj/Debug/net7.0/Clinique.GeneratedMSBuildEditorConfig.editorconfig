@@ -1,0 +1,113 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = AspNetCoreTemplate
+build_property.RootNamespace = AspNetCoreTemplate
+build_property.ProjectDir = /home/mahefa/A0_MAHEFA/ITU/Ubuntu/ROJO/A0-S6/FINAL_EVAL/Clinique/Clinique/
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /home/mahefa/A0_MAHEFA/ITU/Ubuntu/ROJO/A0-S6/FINAL_EVAL/Clinique/Clinique
+build_property._RazorSourceGeneratorDebug = 
+
+[/home/mahefa/A0_MAHEFA/ITU/Ubuntu/ROJO/A0-S6/FINAL_EVAL/Clinique/Clinique/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mahefa/A0_MAHEFA/ITU/Ubuntu/ROJO/A0-S6/FINAL_EVAL/Clinique/Clinique/Views/Admin/Home.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vSG9tZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mahefa/A0_MAHEFA/ITU/Ubuntu/ROJO/A0-S6/FINAL_EVAL/Clinique/Clinique/Views/Admin/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mahefa/A0_MAHEFA/ITU/Ubuntu/ROJO/A0-S6/FINAL_EVAL/Clinique/Clinique/Views/Admin/template/_Aside.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vdGVtcGxhdGUvX0FzaWRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mahefa/A0_MAHEFA/ITU/Ubuntu/ROJO/A0-S6/FINAL_EVAL/Clinique/Clinique/Views/Admin/template/_Content.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vdGVtcGxhdGUvX0NvbnRlbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mahefa/A0_MAHEFA/ITU/Ubuntu/ROJO/A0-S6/FINAL_EVAL/Clinique/Clinique/Views/Admin/template/_Nav.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vdGVtcGxhdGUvX05hdi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mahefa/A0_MAHEFA/ITU/Ubuntu/ROJO/A0-S6/FINAL_EVAL/Clinique/Clinique/Views/Employer/Home.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRW1wbG95ZXIvSG9tZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mahefa/A0_MAHEFA/ITU/Ubuntu/ROJO/A0-S6/FINAL_EVAL/Clinique/Clinique/Views/Employer/template/_Aside.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRW1wbG95ZXIvdGVtcGxhdGUvX0FzaWRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mahefa/A0_MAHEFA/ITU/Ubuntu/ROJO/A0-S6/FINAL_EVAL/Clinique/Clinique/Views/Employer/template/_Content.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRW1wbG95ZXIvdGVtcGxhdGUvX0NvbnRlbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mahefa/A0_MAHEFA/ITU/Ubuntu/ROJO/A0-S6/FINAL_EVAL/Clinique/Clinique/Views/Employer/template/_Nav.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRW1wbG95ZXIvdGVtcGxhdGUvX05hdi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mahefa/A0_MAHEFA/ITU/Ubuntu/ROJO/A0-S6/FINAL_EVAL/Clinique/Clinique/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mahefa/A0_MAHEFA/ITU/Ubuntu/ROJO/A0-S6/FINAL_EVAL/Clinique/Clinique/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mahefa/A0_MAHEFA/ITU/Ubuntu/ROJO/A0-S6/FINAL_EVAL/Clinique/Clinique/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mahefa/A0_MAHEFA/ITU/Ubuntu/ROJO/A0-S6/FINAL_EVAL/Clinique/Clinique/Views/Shared/_HtmlTemplate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19IdG1sVGVtcGxhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mahefa/A0_MAHEFA/ITU/Ubuntu/ROJO/A0-S6/FINAL_EVAL/Clinique/Clinique/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mahefa/A0_MAHEFA/ITU/Ubuntu/ROJO/A0-S6/FINAL_EVAL/Clinique/Clinique/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mahefa/A0_MAHEFA/ITU/Ubuntu/ROJO/A0-S6/FINAL_EVAL/Clinique/Clinique/Views/Utilisateur/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXRpbGlzYXRldXIvQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mahefa/A0_MAHEFA/ITU/Ubuntu/ROJO/A0-S6/FINAL_EVAL/Clinique/Clinique/Views/Utilisateur/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXRpbGlzYXRldXIvRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mahefa/A0_MAHEFA/ITU/Ubuntu/ROJO/A0-S6/FINAL_EVAL/Clinique/Clinique/Views/Utilisateur/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXRpbGlzYXRldXIvRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mahefa/A0_MAHEFA/ITU/Ubuntu/ROJO/A0-S6/FINAL_EVAL/Clinique/Clinique/Views/Utilisateur/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXRpbGlzYXRldXIvRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mahefa/A0_MAHEFA/ITU/Ubuntu/ROJO/A0-S6/FINAL_EVAL/Clinique/Clinique/Views/Utilisateur/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXRpbGlzYXRldXIvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mahefa/A0_MAHEFA/ITU/Ubuntu/ROJO/A0-S6/FINAL_EVAL/Clinique/Clinique/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mahefa/A0_MAHEFA/ITU/Ubuntu/ROJO/A0-S6/FINAL_EVAL/Clinique/Clinique/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mahefa/A0_MAHEFA/ITU/Ubuntu/ROJO/A0-S6/FINAL_EVAL/Clinique/Clinique/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-68bwqhak56
