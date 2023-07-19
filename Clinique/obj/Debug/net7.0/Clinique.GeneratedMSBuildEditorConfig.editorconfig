@@ -20,6 +20,30 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/home/mahefa/A0_MAHEFA/ITU/Ubuntu/ROJO/A0-S6/FINAL_EVAL/Clinique/Clinique/Views/Acte/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWN0ZS9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mahefa/A0_MAHEFA/ITU/Ubuntu/ROJO/A0-S6/FINAL_EVAL/Clinique/Clinique/Views/Acte/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWN0ZS9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mahefa/A0_MAHEFA/ITU/Ubuntu/ROJO/A0-S6/FINAL_EVAL/Clinique/Clinique/Views/Acte/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWN0ZS9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mahefa/A0_MAHEFA/ITU/Ubuntu/ROJO/A0-S6/FINAL_EVAL/Clinique/Clinique/Views/Acte/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWN0ZS9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mahefa/A0_MAHEFA/ITU/Ubuntu/ROJO/A0-S6/FINAL_EVAL/Clinique/Clinique/Views/Acte/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWN0ZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mahefa/A0_MAHEFA/ITU/Ubuntu/ROJO/A0-S6/FINAL_EVAL/Clinique/Clinique/Views/Admin/Budgetaire.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vQnVkZ2V0YWlyZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/home/mahefa/A0_MAHEFA/ITU/Ubuntu/ROJO/A0-S6/FINAL_EVAL/Clinique/Clinique/Views/Admin/Home.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vSG9tZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -40,6 +64,70 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vdGVtcGxhdGUvX05hdi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/home/mahefa/A0_MAHEFA/ITU/Ubuntu/ROJO/A0-S6/FINAL_EVAL/Clinique/Clinique/Views/BudgetActe/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQnVkZ2V0QWN0ZS9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mahefa/A0_MAHEFA/ITU/Ubuntu/ROJO/A0-S6/FINAL_EVAL/Clinique/Clinique/Views/BudgetActe/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQnVkZ2V0QWN0ZS9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mahefa/A0_MAHEFA/ITU/Ubuntu/ROJO/A0-S6/FINAL_EVAL/Clinique/Clinique/Views/BudgetActe/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQnVkZ2V0QWN0ZS9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mahefa/A0_MAHEFA/ITU/Ubuntu/ROJO/A0-S6/FINAL_EVAL/Clinique/Clinique/Views/BudgetActe/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQnVkZ2V0QWN0ZS9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mahefa/A0_MAHEFA/ITU/Ubuntu/ROJO/A0-S6/FINAL_EVAL/Clinique/Clinique/Views/BudgetActe/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQnVkZ2V0QWN0ZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mahefa/A0_MAHEFA/ITU/Ubuntu/ROJO/A0-S6/FINAL_EVAL/Clinique/Clinique/Views/BudgetDepense/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQnVkZ2V0RGVwZW5zZS9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mahefa/A0_MAHEFA/ITU/Ubuntu/ROJO/A0-S6/FINAL_EVAL/Clinique/Clinique/Views/BudgetDepense/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQnVkZ2V0RGVwZW5zZS9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mahefa/A0_MAHEFA/ITU/Ubuntu/ROJO/A0-S6/FINAL_EVAL/Clinique/Clinique/Views/BudgetDepense/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQnVkZ2V0RGVwZW5zZS9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mahefa/A0_MAHEFA/ITU/Ubuntu/ROJO/A0-S6/FINAL_EVAL/Clinique/Clinique/Views/BudgetDepense/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQnVkZ2V0RGVwZW5zZS9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mahefa/A0_MAHEFA/ITU/Ubuntu/ROJO/A0-S6/FINAL_EVAL/Clinique/Clinique/Views/BudgetDepense/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQnVkZ2V0RGVwZW5zZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mahefa/A0_MAHEFA/ITU/Ubuntu/ROJO/A0-S6/FINAL_EVAL/Clinique/Clinique/Views/Depense/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGVwZW5zZS9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mahefa/A0_MAHEFA/ITU/Ubuntu/ROJO/A0-S6/FINAL_EVAL/Clinique/Clinique/Views/Depense/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGVwZW5zZS9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mahefa/A0_MAHEFA/ITU/Ubuntu/ROJO/A0-S6/FINAL_EVAL/Clinique/Clinique/Views/Depense/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGVwZW5zZS9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mahefa/A0_MAHEFA/ITU/Ubuntu/ROJO/A0-S6/FINAL_EVAL/Clinique/Clinique/Views/Depense/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGVwZW5zZS9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mahefa/A0_MAHEFA/ITU/Ubuntu/ROJO/A0-S6/FINAL_EVAL/Clinique/Clinique/Views/Depense/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGVwZW5zZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mahefa/A0_MAHEFA/ITU/Ubuntu/ROJO/A0-S6/FINAL_EVAL/Clinique/Clinique/Views/Employer/AfficheFacture.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRW1wbG95ZXIvQWZmaWNoZUZhY3R1cmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/home/mahefa/A0_MAHEFA/ITU/Ubuntu/ROJO/A0-S6/FINAL_EVAL/Clinique/Clinique/Views/Employer/Home.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRW1wbG95ZXIvSG9tZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -56,12 +144,52 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRW1wbG95ZXIvdGVtcGxhdGUvX05hdi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/home/mahefa/A0_MAHEFA/ITU/Ubuntu/ROJO/A0-S6/FINAL_EVAL/Clinique/Clinique/Views/FacturePatient/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRmFjdHVyZVBhdGllbnQvQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mahefa/A0_MAHEFA/ITU/Ubuntu/ROJO/A0-S6/FINAL_EVAL/Clinique/Clinique/Views/FacturePatient/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRmFjdHVyZVBhdGllbnQvRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mahefa/A0_MAHEFA/ITU/Ubuntu/ROJO/A0-S6/FINAL_EVAL/Clinique/Clinique/Views/FacturePatient/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRmFjdHVyZVBhdGllbnQvRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mahefa/A0_MAHEFA/ITU/Ubuntu/ROJO/A0-S6/FINAL_EVAL/Clinique/Clinique/Views/FacturePatient/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRmFjdHVyZVBhdGllbnQvRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mahefa/A0_MAHEFA/ITU/Ubuntu/ROJO/A0-S6/FINAL_EVAL/Clinique/Clinique/Views/FacturePatient/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRmFjdHVyZVBhdGllbnQvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/home/mahefa/A0_MAHEFA/ITU/Ubuntu/ROJO/A0-S6/FINAL_EVAL/Clinique/Clinique/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/home/mahefa/A0_MAHEFA/ITU/Ubuntu/ROJO/A0-S6/FINAL_EVAL/Clinique/Clinique/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mahefa/A0_MAHEFA/ITU/Ubuntu/ROJO/A0-S6/FINAL_EVAL/Clinique/Clinique/Views/Patient/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGF0aWVudC9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mahefa/A0_MAHEFA/ITU/Ubuntu/ROJO/A0-S6/FINAL_EVAL/Clinique/Clinique/Views/Patient/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGF0aWVudC9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mahefa/A0_MAHEFA/ITU/Ubuntu/ROJO/A0-S6/FINAL_EVAL/Clinique/Clinique/Views/Patient/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGF0aWVudC9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mahefa/A0_MAHEFA/ITU/Ubuntu/ROJO/A0-S6/FINAL_EVAL/Clinique/Clinique/Views/Patient/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGF0aWVudC9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mahefa/A0_MAHEFA/ITU/Ubuntu/ROJO/A0-S6/FINAL_EVAL/Clinique/Clinique/Views/Patient/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGF0aWVudC9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/home/mahefa/A0_MAHEFA/ITU/Ubuntu/ROJO/A0-S6/FINAL_EVAL/Clinique/Clinique/Views/Shared/Error.cshtml]
@@ -78,6 +206,46 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/home/mahefa/A0_MAHEFA/ITU/Ubuntu/ROJO/A0-S6/FINAL_EVAL/Clinique/Clinique/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mahefa/A0_MAHEFA/ITU/Ubuntu/ROJO/A0-S6/FINAL_EVAL/Clinique/Clinique/Views/TypeActe/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVHlwZUFjdGUvQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mahefa/A0_MAHEFA/ITU/Ubuntu/ROJO/A0-S6/FINAL_EVAL/Clinique/Clinique/Views/TypeActe/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVHlwZUFjdGUvRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mahefa/A0_MAHEFA/ITU/Ubuntu/ROJO/A0-S6/FINAL_EVAL/Clinique/Clinique/Views/TypeActe/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVHlwZUFjdGUvRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mahefa/A0_MAHEFA/ITU/Ubuntu/ROJO/A0-S6/FINAL_EVAL/Clinique/Clinique/Views/TypeActe/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVHlwZUFjdGUvRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mahefa/A0_MAHEFA/ITU/Ubuntu/ROJO/A0-S6/FINAL_EVAL/Clinique/Clinique/Views/TypeActe/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVHlwZUFjdGUvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mahefa/A0_MAHEFA/ITU/Ubuntu/ROJO/A0-S6/FINAL_EVAL/Clinique/Clinique/Views/TypeDepense/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVHlwZURlcGVuc2UvQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mahefa/A0_MAHEFA/ITU/Ubuntu/ROJO/A0-S6/FINAL_EVAL/Clinique/Clinique/Views/TypeDepense/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVHlwZURlcGVuc2UvRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mahefa/A0_MAHEFA/ITU/Ubuntu/ROJO/A0-S6/FINAL_EVAL/Clinique/Clinique/Views/TypeDepense/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVHlwZURlcGVuc2UvRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mahefa/A0_MAHEFA/ITU/Ubuntu/ROJO/A0-S6/FINAL_EVAL/Clinique/Clinique/Views/TypeDepense/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVHlwZURlcGVuc2UvRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mahefa/A0_MAHEFA/ITU/Ubuntu/ROJO/A0-S6/FINAL_EVAL/Clinique/Clinique/Views/TypeDepense/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVHlwZURlcGVuc2UvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/home/mahefa/A0_MAHEFA/ITU/Ubuntu/ROJO/A0-S6/FINAL_EVAL/Clinique/Clinique/Views/Utilisateur/Create.cshtml]

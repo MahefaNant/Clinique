@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "dCq4Qljtj74URyA4ToB0cM/RndT6GpKnmQ7g18n9U4s=",
+  "Hash": "mt7yG5TzymmaUIkpaCK4vCzLix6UCNgj2+MCROn2Iwc=",
   "Source": "Clinique",
   "BasePath": "_content/Clinique",
   "Mode": "Default",
@@ -9943,6 +9943,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/scripts/table.sql"
+    },
+    {
+      "Identity": "/home/mahefa/A0_MAHEFA/ITU/Ubuntu/ROJO/A0-S6/FINAL_EVAL/Clinique/Clinique/wwwroot/scripts/views.sql",
+      "SourceId": "Clinique",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/mahefa/A0_MAHEFA/ITU/Ubuntu/ROJO/A0-S6/FINAL_EVAL/Clinique/Clinique/wwwroot/",
+      "BasePath": "_content/Clinique",
+      "RelativePath": "scripts/views.sql",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/scripts/views.sql"
+    },
+    {
+      "Identity": "/home/mahefa/A0_MAHEFA/ITU/Ubuntu/ROJO/A0-S6/FINAL_EVAL/Clinique/Clinique/wwwroot/sheet.txt",
+      "SourceId": "Clinique",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/mahefa/A0_MAHEFA/ITU/Ubuntu/ROJO/A0-S6/FINAL_EVAL/Clinique/Clinique/wwwroot/",
+      "BasePath": "_content/Clinique",
+      "RelativePath": "sheet.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/sheet.txt"
     }
   ]
 }

@@ -1,0 +1,14 @@
+gestion patient 8:26
+- 15 mn / 9:12
+
+gestion typeActe, typeDepense 9:26
+- 15 mn / 9:42
+
+Acte 10:27
+- 30 mn / 10:42
+
+Depense  11:15
+- 30 mn / 
+
+Tableau bord budgetaire Recette(Acte) 11:15
+- 45 mn / 
