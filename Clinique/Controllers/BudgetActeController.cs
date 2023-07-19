@@ -48,7 +48,7 @@ namespace AspNetCoreTemplate.Controllers
         // GET: BudgetActe/Create
         public IActionResult Create()
         {
-            ViewData["IdTypeActe"] = new SelectList(_context.TypeActe, "Id", "Id");
+            ViewData["IdTypeActe"] = new SelectList(_context.TypeActe, "Id", "Nom");
             return View();
         }
 
@@ -65,7 +65,7 @@ namespace AspNetCoreTemplate.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["IdTypeActe"] = new SelectList(_context.TypeActe, "Id", "Id", budgetActe.IdTypeActe);
+            ViewData["IdTypeActe"] = new SelectList(_context.TypeActe, "Id", "Nom", budgetActe.IdTypeActe);
             return View(budgetActe);
         }
 
@@ -82,7 +82,7 @@ namespace AspNetCoreTemplate.Controllers
             {
                 return NotFound();
             }
-            ViewData["IdTypeActe"] = new SelectList(_context.TypeActe, "Id", "Id", budgetActe.IdTypeActe);
+            ViewData["IdTypeActe"] = new SelectList(_context.TypeActe, "Id", "Nom", budgetActe.IdTypeActe);
             return View(budgetActe);
         }
 
@@ -118,7 +118,7 @@ namespace AspNetCoreTemplate.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["IdTypeActe"] = new SelectList(_context.TypeActe, "Id", "Id", budgetActe.IdTypeActe);
+            ViewData["IdTypeActe"] = new SelectList(_context.TypeActe, "Id", "Nom", budgetActe.IdTypeActe);
             return View(budgetActe);
         }
 

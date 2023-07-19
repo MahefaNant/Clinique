@@ -42,11 +42,11 @@ public class TableauBord
         RealisationRecetteTotal = 0;
         foreach (var q in L)
         {
-            ReelRecetteTotal = Math.Round(ReelRecetteTotal+ q.TotalMontant);
-            BudgetRecetteTotal = Math.Round(BudgetRecetteTotal+ q.Budget);
+            ReelRecetteTotal = Math.Round(ReelRecetteTotal+ q.TotalMontant,2);
+            BudgetRecetteTotal = Math.Round(BudgetRecetteTotal+ q.Budget,2);
         }
         if(L.Count>0)
-            RealisationRecetteTotal = Math.Round((ReelRecetteTotal * 100) / BudgetRecetteTotal);
+            RealisationRecetteTotal = Math.Round((ReelRecetteTotal * 100) / BudgetRecetteTotal,2);
     }
     
     void AddTotalFromDepense(int? annee , int? mois)
@@ -57,19 +57,19 @@ public class TableauBord
         RealisationDepenseTotal = 0;
         foreach (var q in L)
         {
-            ReelDepenseTotal = Math.Round(ReelDepenseTotal+ q.TotalMontant);
-            BudgetDepenseTotal = Math.Round(BudgetDepenseTotal+ q.Budget);
+            ReelDepenseTotal = Math.Round(ReelDepenseTotal+ q.TotalMontant,2);
+            BudgetDepenseTotal = Math.Round(BudgetDepenseTotal+ q.Budget,2);
         }
         if(L.Count>0)
-            RealisationDepenseTotal = Math.Round((ReelDepenseTotal * 100) / BudgetDepenseTotal);
+            RealisationDepenseTotal = Math.Round((ReelDepenseTotal * 100) / BudgetDepenseTotal,2);
     }
 
     void AddResultFromBenefice(int? annee, int? mois)
     {
-        ReelBeneficeTotal = Math.Round(ReelRecetteTotal - ReelDepenseTotal);
-        BudgetBeneficeTotal = Math.Round(BudgetRecetteTotal - BudgetDepenseTotal);
+        ReelBeneficeTotal = Math.Round(ReelRecetteTotal - ReelDepenseTotal,2);
+        BudgetBeneficeTotal = Math.Round(BudgetRecetteTotal - BudgetDepenseTotal,2);
         if(BudgetBeneficeTotal!=0)
-            RealisationBeneficeTotal = Math.Round((ReelBeneficeTotal * 100) / BudgetBeneficeTotal);
+            RealisationBeneficeTotal = Math.Round((ReelBeneficeTotal * 100) / BudgetBeneficeTotal,2);
     }
 
     List<VSommeActeParAnsMoisTypeActeWithBudget> GetRecettes(int? annee , int? mois)
@@ -99,7 +99,7 @@ public class TableauBord
                     Mois = (int)mois,
                     IdTypeActe = typeactes[i].IdTypeActe,
                     TotalMontant = 0,
-                    Budget = Math.Round((decimal)typeactes[i].Budget/12),
+                    Budget = Math.Round((decimal)typeactes[i].Budget/12 , 2),
                     Realisation = 0
                 };
                 V.TypeActe = _context.TypeActe.First(q => q.Id == typeactes[i].IdTypeActe);
@@ -137,7 +137,7 @@ public class TableauBord
                     Mois = (int)mois,
                     IdTypeDepense = typeDepenses[i].IdTypeDepense,
                     TotalMontant = 0,
-                    Budget = Math.Round((decimal)typeDepenses[i].Budget/12),
+                    Budget = Math.Round((decimal)typeDepenses[i].Budget/12 , 2),
                     Realisation = 0
                 };
                 V.TypeDepense = _context.TypeDepense.First(q => q.Id == typeDepenses[i].IdTypeDepense);

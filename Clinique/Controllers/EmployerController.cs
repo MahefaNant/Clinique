@@ -102,15 +102,28 @@ public class EmployerController : Controller
             Delimiter = ";" // Spécifier le point-virgule comme séparateur
         });        
         var depenseCsv = csv.GetRecords<DepenseCSV>().ToList();
-        var depense = depenseCsv.Select(depenseCsv => new Depense()
-        {
-            IdTypeDepense = IdTypeDepenseViaCode(depenseCsv.Code),
-            Date = DateTimeToUTC.Make(depenseCsv.Date),
-            Montant = depenseCsv.Montant
-        }).ToList();
 
-        // Console.WriteLine(depense[0].Date);
-        _context.AddRange(depense);
+        foreach (var q in depenseCsv)
+        {
+            try
+            {
+                int IdTypeDepense = IdTypeDepenseViaCode(q.Code);
+                if (IdTypeDepense != null)
+                {
+                    Depense D = new Depense();
+                    D.IdTypeDepense = IdTypeDepense;
+                    D.Date = DateTimeToUTC.Make(q.Date);
+                    D.Montant =   Math.Round( Double.Parse(q.Montant.Replace(".", ",")),2) ;
+                    _context.Add(D);
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("saute");
+            }
+            
+        }
+        
         _context.SaveChanges();
         return Ok();
     }
