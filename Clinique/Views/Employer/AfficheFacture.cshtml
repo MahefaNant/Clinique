@@ -8,60 +8,69 @@
     IEnumerable<VFactureActe> factureDetails = ViewBag.factureDetails;
 }
 
-<h1>Details</h1>
-
-<div>
-    <h4>FacturePatient</h4>
-    <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Date)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Date)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Patient)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Patient.Id)
-        </dd>
-    </dl>
-</div>
-
-<hr/>
-<hr/>
-
-<div class="card top-selling overflow-auto">
-  
-    <div class="card-body pb-0">
-        <h5 class="card-title">Details Facture</h5>
-
-        <table class="table table-borderless">
-            <thead>
-            <tr>
-                <th scope="col">Facture Date</th>
-                <th scope="col">Patient</th>
-                <th scope="col">Type Acte</th>
-                <th scope="col">Montant</th>
-            </tr>
-            </thead>
-            <tbody>
-            @foreach (var q in factureDetails)
-            {
-                <tr>
-                    @* <th scope="row"><a href="#"><img src="assets/img/product-1.jpg" alt=""></a></th> *@
-                    @* <td>$64</td> *@
-                    <td class="fw-bold">@q.FacturePatient.Date.ToString("dd MMMM yyyy")</td>
-                    <td class="fw-bold">@q.Patient.Nom</td>
-                    <td><a href="#" class="text-primary fw-bold">@q.TypeActe.Nom</a></td>
-                    <td><a href="#" class="text-primary fw-bold">@q.Montant</a></td>
-                </tr>
-            }
-            <tr><th></th><th></th><th></th><th>@ViewBag.sommeFacture</th></tr>
-            </tbody>
-        </table>
-
+<div class="container">
+    <div class="card top-selling overflow-auto">
+        <div class="card-body pb-0">
+            <h5 class="card-title">Details FACTURE</h5>
+            
+            <div>
+                <h4>FacturePatient</h4>
+                <hr />
+                <dl class="row">
+                    <dt class="col-sm-2">
+                        @Model.Date.ToString("dd MMMM yyyy")
+                    </dt>
+                    <dd class = "col-sm-10">
+                        @Html.DisplayFor(model => model.Date)
+                    </dd>
+                    <dt class = "col-sm-2">
+                        @Html.DisplayNameFor(model => model.Patient)
+                    </dt>
+                    <dd class = "col-sm-10">
+                        @Html.DisplayFor(model => model.Patient.Nom)
+                    </dd>
+                </dl>
+            </div>
+            
+            <hr/>
+            <hr/>
+            
+            <div class="card top-selling overflow-auto">
+              
+                <div class="card-body pb-0">
+                    <h5 class="card-title">Details Facture</h5>
+            
+                    <table class="table table-borderless">
+                        <thead>
+                        <tr>
+                            <th scope="col">Facture Date</th>
+                            <th scope="col">Patient</th>
+                            <th scope="col">Type Acte</th>
+                            <th scope="col">Montant</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        @foreach (var q in factureDetails)
+                        {
+                            <tr>
+                                @* <th scope="row"><a href="#"><img src="assets/img/product-1.jpg" alt=""></a></th> *@
+                                @* <td>$64</td> *@
+                                <td class="fw-bold">@q.FacturePatient.Date.ToString("dd MMMM yyyy")</td>
+                                <td class="fw-bold">@q.Patient.Nom</td>
+                                <td><a href="#" class="text-primary fw-bold">@q.TypeActe.Nom</a></td>
+                                <td><a href="#" class="text-primary fw-bold">@q.Montant</a></td>
+                            </tr>
+                        }
+                        <tr><th></th><th></th><th></th><th>@ViewBag.sommeFacture</th></tr>
+                        </tbody>
+                    </table>
+            
+                </div>
+            
+            </div>
+        </div>
     </div>
-
 </div>
+
+
+

@@ -12,6 +12,6 @@ public class DepenseCSV
     public string Code { get; set; }
     
     [Name("montant")]
-    public double Montant { get; set; }
+    public string Montant { get; set; }
     
 }
