@@ -109,7 +109,6 @@ public class EmployerController : Controller
             Montant = depenseCsv.Montant
         }).ToList();
 
-        // Console.WriteLine(depense[0].Date);
         _context.AddRange(depense);
         _context.SaveChanges();
         return Ok();
