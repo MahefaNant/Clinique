@@ -45,8 +45,12 @@ public class AdminController : Controller
 
     public IActionResult Budgetaire(int? annee , int? mois)
     {
+        if (annee == null) annee = 2023;
+        if (mois == null) mois = 7;
         TableauBord tableauBord = new TableauBord(_context, annee, mois);
         ViewBag.tableauBord = tableauBord;
+        ViewBag.annee = annee;
+        ViewBag.mois = mois;
         return View();
     }
 

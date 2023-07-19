@@ -1,3 +1,5 @@
+@using System.Globalization
+@using Microsoft.AspNetCore.Mvc.TagHelpers
 @model IEnumerable<AspNetCoreTemplate.Models.BudgetActe>
 
 @{
@@ -32,7 +34,7 @@
                 @Html.DisplayFor(modelItem => item.Annee)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Budget)
+                @item.Budget.ToString("N2", CultureInfo.GetCultureInfo("fr-FR"))
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.TypeActe.Nom)

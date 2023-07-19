@@ -1,4 +1,6 @@
 @using AspNetCoreTemplate.Models.VIEWS
+@using Microsoft.AspNetCore.Mvc.TagHelpers
+@using System.Globalization
 @model AspNetCoreTemplate.Models.FacturePatient
 
 @{
@@ -58,10 +60,10 @@
                     <td class="fw-bold">@q.FacturePatient.Date.ToString("dd MMMM yyyy")</td>
                     <td class="fw-bold">@q.Patient.Nom</td>
                     <td><a href="#" class="text-primary fw-bold">@q.TypeActe.Nom</a></td>
-                    <td><a href="#" class="text-primary fw-bold">@q.Montant</a></td>
+                    <td><a href="#" class="text-primary fw-bold">@q.Montant.ToString("N2", CultureInfo.GetCultureInfo("fr-FR"))</a></td>
                 </tr>
             }
-            <tr><th></th><th></th><th></th><th>@ViewBag.sommeFacture</th></tr>
+            <tr><th></th><th></th><th></th><th>@ViewBag.sommeFacture.ToString("N2", CultureInfo.GetCultureInfo("fr-FR"))</th></tr>
             </tbody>
         </table>
 

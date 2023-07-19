@@ -1,6 +1,7 @@
 @using AspNetCoreTemplate.C_
 @using AspNetCoreTemplate.Models.Others
 @using AspNetCoreTemplate.Models.VIEWS
+@using System.Globalization
 @model dynamic
 
 @{
@@ -17,6 +18,8 @@
 <div class="card top-selling overflow-auto">
     <div class="card-body pb-0">
         <h5 class="card-title">Budgetaire</h5>
+        <h5 class="card-title">ANNEE : @ViewBag.annee</h5>
+        <h5 class="card-title">MOIS : @Function.findMois(@ViewBag.mois) </h5>
         
         <hr/>
         <hr/>
@@ -54,15 +57,15 @@
             {
                 <tr>
                     <th>@q.TypeActe.Nom</th>
-                    <th>@q.TotalMontant</th>
-                    <th>@q.Budget</th>
+                    <th>@q.TotalMontant.ToString("N2", CultureInfo.GetCultureInfo("fr-FR"))</th>
+                    <th>@q.Budget.ToString("N2", CultureInfo.GetCultureInfo("fr-FR"))</th>
                     <th>@q.Realisation</th>
                 </tr>
             }
             <tr>
-                <th></th><th class="text-bg-primary">@tableauBord.ReelRecetteTotal %</th>
-                <th class="text-bg-primary">@tableauBord.BudgetRecetteTotal %</th>
-                <th class="text-bg-primary">@tableauBord.RealisationRecetteTotal %</th>
+                <th></th><th class="text-bg-primary">@tableauBord.ReelRecetteTotal.ToString("N2", CultureInfo.GetCultureInfo("fr-FR"))</th>
+                <th class="text-bg-primary">@tableauBord.BudgetRecetteTotal.ToString("N2", CultureInfo.GetCultureInfo("fr-FR"))</th>
+                <th class="text-bg-primary">@tableauBord.RealisationRecetteTotal.ToString("N2", CultureInfo.GetCultureInfo("fr-FR")) %</th>
             </tr>
         </table>
     </div>
@@ -85,14 +88,14 @@
             {
                 <tr>
                     <th>@q.TypeDepense.Nom</th>
-                    <th>@q.TotalMontant</th>
-                    <th>@q.Budget</th>
+                    <th>@q.TotalMontant.ToString("N2", CultureInfo.GetCultureInfo("fr-FR"))</th>
+                    <th>@q.Budget.ToString("N2", CultureInfo.GetCultureInfo("fr-FR"))</th>
                     <th>@q.Realisation</th>
                 </tr>
             }
             <tr>
-                <th></th><th class="text-bg-primary">@tableauBord.ReelDepenseTotal %</th>
-                <th class="text-bg-primary">@tableauBord.BudgetDepenseTotal %</th>
+                <th></th><th class="text-bg-primary">@tableauBord.ReelDepenseTotal.ToString("N2", CultureInfo.GetCultureInfo("fr-FR"))</th>
+                <th class="text-bg-primary">@tableauBord.BudgetDepenseTotal.ToString("N2", CultureInfo.GetCultureInfo("fr-FR"))</th>
                 <th class="text-bg-primary">@tableauBord.RealisationDepenseTotal %</th>
             </tr>
         </table>
@@ -114,19 +117,19 @@
             </thead>
             <tr>
                 <th>Recette</th>
-                <th>@tableauBord.ReelRecetteTotal</th>
-                <th>@tableauBord.BudgetRecetteTotal</th>
+                <th>@tableauBord.ReelRecetteTotal.ToString("N2", CultureInfo.GetCultureInfo("fr-FR"))</th>
+                <th>@tableauBord.BudgetRecetteTotal.ToString("N2", CultureInfo.GetCultureInfo("fr-FR"))</th>
                 <th>@tableauBord.RealisationRecetteTotal</th>
             </tr>
             <tr>
                 <th>Depense</th>
-                <th>@tableauBord.ReelDepenseTotal</th>
-                <th>@tableauBord.BudgetDepenseTotal</th>
+                <th>@tableauBord.ReelDepenseTotal.ToString("N2", CultureInfo.GetCultureInfo("fr-FR"))</th>
+                <th>@tableauBord.BudgetDepenseTotal.ToString("N2", CultureInfo.GetCultureInfo("fr-FR"))</th>
                 <th>@tableauBord.RealisationDepenseTotal</th>
             </tr>
             <tr>
-                <th></th><th class="text-bg-primary">@tableauBord.ReelBeneficeTotal %</th>
-                <th class="text-bg-primary">@tableauBord.BudgetBeneficeTotal %</th>
+                <th></th><th class="text-bg-primary">@tableauBord.ReelBeneficeTotal.ToString("N2", CultureInfo.GetCultureInfo("fr-FR"))</th>
+                <th class="text-bg-primary">@tableauBord.BudgetBeneficeTotal.ToString("N2", CultureInfo.GetCultureInfo("fr-FR"))</th>
                 <th class="text-bg-primary">@tableauBord.RealisationBeneficeTotal %</th>
             </tr>
         </table>

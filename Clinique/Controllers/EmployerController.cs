@@ -93,6 +93,12 @@ public class EmployerController : Controller
         TypeDepense typeDepense = _context.TypeDepense.First(q => q.Code == code);
         return typeDepense.Id;
     }
+    
+    public int IdTypeActeViaCode(string code)
+    {
+        TypeActe typeActe = _context.TypeActe.First(q => q.Code == code);
+        return typeActe.Id;
+    }
 
     public IActionResult Csv(IFormFile fichier)
     {
@@ -127,4 +133,6 @@ public class EmployerController : Controller
         _context.SaveChanges();
         return Ok();
     }
+    
+    
 }
