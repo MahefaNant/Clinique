@@ -315,3 +315,4 @@
 /home/mahefa/A0_MAHEFA/ITU/Ubuntu/ROJO/A0-S6/FINAL_EVAL/Clinique/Clinique/obj/Debug/net7.0/Clinique.pdb
 /home/mahefa/A0_MAHEFA/ITU/Ubuntu/ROJO/A0-S6/FINAL_EVAL/Clinique/Clinique/obj/Debug/net7.0/Clinique.genruntimeconfig.cache
 /home/mahefa/A0_MAHEFA/ITU/Ubuntu/ROJO/A0-S6/FINAL_EVAL/Clinique/Clinique/obj/Debug/net7.0/ref/Clinique.dll
+/home/mahefa/A0_MAHEFA/ITU/Ubuntu/ROJO/A0-S6/FINAL_EVAL/Clinique/Clinique/bin/Debug/net7.0/CsvHelper.dll

@@ -1,12 +1,26 @@
+using AspNetCoreTemplate.Data;
 using AspNetCoreTemplate.Models;
+using AspNetCoreTemplate.Models.Others;
+using AspNetCoreTemplate.Models.VIEWS;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
 
 namespace AspNetCoreTemplate.Controllers;
 
 public class AdminController : Controller
 {
+    
+    private readonly ApplicationDbContext _context;
+
+
     private readonly string _adminType = "admin";
+
+    public AdminController(ApplicationDbContext context)
+    {
+        _context = context;
+    }
+
     // Admin/Login
     public IActionResult Login()
     {
@@ -28,4 +42,12 @@ public class AdminController : Controller
         };
         return View(model);
     }
+
+    public IActionResult Budgetaire(int? annee , int? mois)
+    {
+        TableauBord tableauBord = new TableauBord(_context, annee, mois);
+        ViewBag.tableauBord = tableauBord;
+        return View();
+    }
+
 }

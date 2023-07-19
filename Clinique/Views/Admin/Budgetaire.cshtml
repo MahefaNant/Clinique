@@ -1,0 +1,137 @@
+@using AspNetCoreTemplate.C_
+@using AspNetCoreTemplate.Models.Others
+@using AspNetCoreTemplate.Models.VIEWS
+@model dynamic
+
+@{
+    ViewBag.Title = "title";
+    Layout = RoutePath.ContentAdmin();
+    // TableauBord tableauBord = ViewBag.tableauBord;
+
+    // IEnumerable<VSommeActeParAnsMoisTypeActeWithBudget> actes = ViewBag.actes;
+    TableauBord tableauBord = ViewBag.tableauBord;
+    IEnumerable<VSommeActeParAnsMoisTypeActeWithBudget> recettes = tableauBord.Recettes;
+    IEnumerable<VSommeDepenseParAnsMoisTypeDepenseWithBudget> depenses = tableauBord.Depenses;
+}
+
+<div class="card top-selling overflow-auto">
+    <div class="card-body pb-0">
+        <h5 class="card-title">Budgetaire</h5>
+        
+        <hr/>
+        <hr/>
+        
+        <form asp-controller="Admin" asp-action="Budgetaire">
+            <div class="form-group">
+                <label class="control-label">Annee</label>
+                <input name="annee" type="number" step="any" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label class="control-label">Annee</label>
+                <select name="mois">
+                    @for (int i = 0; i < Function.Mois().Length; i++)
+                    {
+                        <option value="@(i+1)">@Function.Mois()[i]</option>
+                    }
+                </select>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+        
+        <h5 class="card-title">Recette</h5>
+        <table class="table table-borderless">
+            <thead>
+            <tr>
+                <th scope="col">Type Acte</th>
+                <th scope="col">Reel</th>
+                <th scope="col">Budget</th>
+                <th scope="col">Realisation</th>
+            </tr>
+            </thead>
+            @foreach (var q in recettes)
+            {
+                <tr>
+                    <th>@q.TypeActe.Nom</th>
+                    <th>@q.TotalMontant</th>
+                    <th>@q.Budget</th>
+                    <th>@q.Realisation</th>
+                </tr>
+            }
+            <tr>
+                <th></th><th class="text-bg-primary">@tableauBord.ReelRecetteTotal</th>
+                <th class="text-bg-primary">@tableauBord.BudgetRecetteTotal</th>
+                <th class="text-bg-primary">@tableauBord.RealisationRecetteTotal</th>
+            </tr>
+        </table>
+    </div>
+</div>
+
+<div class="card top-selling overflow-auto">
+    <div class="card-body pb-0">
+        <h5 class="card-title">Depense</h5>
+        
+        <table class="table table-borderless">
+            <thead>
+            <tr>
+                <th scope="col">Type Depense</th>
+                <th scope="col">Reel</th>
+                <th scope="col">Budget</th>
+                <th scope="col">Realisation</th>
+            </tr>
+            </thead>
+            @foreach (var q in depenses)
+            {
+                <tr>
+                    <th>@q.TypeDepense.Nom</th>
+                    <th>@q.TotalMontant</th>
+                    <th>@q.Budget</th>
+                    <th>@q.Realisation</th>
+                </tr>
+            }
+            <tr>
+                <th></th><th class="text-bg-primary">@tableauBord.ReelDepenseTotal</th>
+                <th class="text-bg-primary">@tableauBord.BudgetDepenseTotal</th>
+                <th class="text-bg-primary">@tableauBord.RealisationDepenseTotal</th>
+            </tr>
+        </table>
+    </div>
+</div>
+
+<div class="card top-selling overflow-auto">
+    <div class="card-body pb-0">
+        <h5 class="card-title">Benefices</h5>
+        
+        <table class="table table-borderless">
+            <thead>
+            <tr>
+                <th scope="col"></th>
+                <th scope="col">Reel</th>
+                <th scope="col">Budget</th>
+                <th scope="col"></th>
+            </tr>
+            </thead>
+            <tr>
+                <th>Recette</th>
+                <th>@tableauBord.ReelRecetteTotal</th>
+                <th>@tableauBord.BudgetRecetteTotal</th>
+                <th>@tableauBord.RealisationRecetteTotal</th>
+            </tr>
+            <tr>
+                <th>Depense</th>
+                <th>@tableauBord.ReelDepenseTotal</th>
+                <th>@tableauBord.BudgetDepenseTotal</th>
+                <th>@tableauBord.RealisationDepenseTotal</th>
+            </tr>
+            <tr>
+                <th></th><th class="text-bg-primary">@tableauBord.ReelBeneficeTotal</th>
+                <th class="text-bg-primary">@tableauBord.BudgetBeneficeTotal</th>
+                <th class="text-bg-primary">@tableauBord.RealisationBeneficeTotal</th>
+            </tr>
+        </table>
+    </div>
+</div>
+
+
+

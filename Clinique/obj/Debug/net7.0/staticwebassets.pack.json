@@ -2093,6 +2093,14 @@
       "PackagePath": "staticwebassets/scripts/table.sql"
     },
     {
+      "Id": "/home/mahefa/A0_MAHEFA/ITU/Ubuntu/ROJO/A0-S6/FINAL_EVAL/Clinique/Clinique/wwwroot/scripts/views.sql",
+      "PackagePath": "staticwebassets/scripts/views.sql"
+    },
+    {
+      "Id": "/home/mahefa/A0_MAHEFA/ITU/Ubuntu/ROJO/A0-S6/FINAL_EVAL/Clinique/Clinique/wwwroot/sheet.txt",
+      "PackagePath": "staticwebassets/sheet.txt"
+    },
+    {
       "Id": "obj/Debug/net7.0/staticwebassets/msbuild.Clinique.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
